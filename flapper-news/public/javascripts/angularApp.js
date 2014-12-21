@@ -19,7 +19,7 @@ angular.module('flapperNews', ['ui.router'])
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home.html',
+                    templateUrl: '/home.html',
                     controller: 'MainCtrl'
                 })
                 .state('posts', {
